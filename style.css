@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
 }
 body{
     background-color: #FFFFFF;
@@ -37,4 +38,69 @@ header nav a:hover{
 .btn:hover{
     box-shadow: 0 0 20px seagreen;
     font-weight: bolder;
+}
+.hero{
+    height: 674px;
+    background-image: url(./images/hero-bg.png);
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+}
+.hero .hero-container{
+    text-align: center;
+    height: 379px;
+    max-width: 1360px;
+    padding: 120px 135px;
+}
+.hero-container h1{
+    font-size: 50px;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+.hero-container span{
+    color: #30B868;
+}
+.early{
+    display: flex;
+    align-items: center;
+    padding: 16px 8px;
+    font-size: 14px;
+    font-weight: 500;
+    gap: 6px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #30B868;
+    width: 200px;
+    margin: 0 auto;
+}
+.dot {
+   width: 8px;
+   height: 8px;
+   background-color: #30B868;
+   display: inline-block;
+   border-radius: 50%;
+}
+.hero-container .hero-p{
+    color: #FFFFFF;
+    line-height: 24px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    margin-top: 16px;
+}
+.hero-btn {
+    align-items: center;
+    margin-top: 36px;
+    gap: 16px;
+}
+.hero-btn .btn2{
+    background-color: transparent;
+    padding: 14px 12px;
+    border-radius: 4px;
+    letter-spacing: .3px;
+    font-weight: 500;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    margin: 16px;
 }
