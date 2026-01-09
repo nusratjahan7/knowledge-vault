@@ -294,3 +294,46 @@ header nav a:hover{
     margin-top: 16px;
     margin-bottom: 80px;
   }
+  footer{
+    background-color: #001931;
+    align-items: center;
+  }
+  footer .main{
+    display: flex;
+    justify-content: space-between;
+    border: 1px white;
+    margin : 120px 120px 80px;
+  }
+  .main .ftr-img , .social{
+    margin: 120px 0 0 0;
+  }
+ .social{
+    color: #FFFFFF;
+    font-size: 16px;
+
+ }
+ .social .icons{
+    color: #001931;
+    margin-top: 16px;
+ }
+  .social .icons i{
+    background-color: #FFFFFF;
+    height:30px;
+    width: 30px;
+    padding: 6px 0 0 0;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  hr{
+    width: 80%;
+    margin: 0 auto;
+    height: 1px;
+    color: #627382;
+    opacity: 0.25;
+  }
+  .main-p{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 30px 0;
+  }
