@@ -60,10 +60,10 @@ header nav a:hover{
 .hero-container span{
     color: #30B868;
 }
-.early{
-    display: flex;
+.early-badge{
+    display: inline-flex;
     align-items: center;
-    padding: 16px 8px;
+    padding: 5px 0px 5px 15px;
     font-size: 14px;
     font-weight: 500;
     gap: 6px;
@@ -75,12 +75,13 @@ header nav a:hover{
     width: 200px;
     margin: 0 auto;
 }
-.dot {
+ .early-badge .dot {
    width: 8px;
    height: 8px;
-   background-color: #30B868;
+   background-color: #289256;
    display: inline-block;
    border-radius: 50%;
+   box-shadow: 0 0 50px #289256, 0 0 25px#30B868;
 }
 .hero-container .hero-p{
     color: #FFFFFF;
@@ -103,4 +104,63 @@ header nav a:hover{
     border: 2px solid #FFFFFF;
     color: #FFFFFF;
     margin: 16px;
+}
+.hero-btn .btn2:hover{
+    border: 3px solid #FFFFFF;
+    font-weight: 600;
+    box-shadow: 0 0 8px #FFFFFF;
+}
+.notes{
+    padding: 80px 20px;
+    align-items: center;
+}
+.notes .notes-container{
+    margin: 0 120px;
+    align-items: center;
+    text-align: center;
+}
+.notes-heading h1{
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.notes-heading p{
+    font-size: 16px;
+    color: #627382;
+    font-family: "Inter", sans-serif;
+}
+.notes-container .notes-cardbox{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    margin-top: 44px;
+}
+.notes-cardbox .card{
+    align-items: center;
+    border-radius: 8px;
+    background-color: rgb(247, 247, 247);
+    padding: 69px 24px;
+}
+.notes-cardbox .card:hover{
+    box-shadow: 0 0 5px#F95555;
+}
+.card img{
+    background-color: #F95555;
+    height: 60px;
+    width: 60px;
+    padding: 18px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+.card h2{
+    font-size: 24px;
+    color: #001931;
+    padding: 0 auto;
+    margin-bottom: 16px;
+}
+.card p{
+    font-size: 16px;
+    color: #627382;
+    padding: 0 auto;
+    line-height: 20px;
 }
